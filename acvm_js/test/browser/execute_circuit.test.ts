@@ -11,7 +11,7 @@ import initACVM, {
 
 beforeEach(async () => {
   await initACVM();
-
+  console.log("test")
   initLogLevel("INFO");
 });
 
